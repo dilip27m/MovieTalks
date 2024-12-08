@@ -1,0 +1,82 @@
+body{
+  background: black;
+  color: white;
+}
+.main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.introtitle {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+.introText {
+  color: #7f8c8d;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+.card {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.719);;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgb(250, 42, 42); 
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 30px;
+  border-radius: 10px;
+
+}
+.title {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+
+}
+.subdata {
+  font-size: 15px;
+  color: #95a5a6;
+  text-align: center;
+
+}
+.footer {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 40px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; 
+}
+.search input {
+  font-size: 16px; 
+  color: #333;
+  background-color: #616161;
+  padding: 10px 15px; 
+  width: 100%; 
+  border: 2px solid #f00a0a; 
+  border-radius: 5px; 
+}

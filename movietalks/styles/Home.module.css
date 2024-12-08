@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+  color: white;
+}
+.intro {
+  background-color:black;
+  color:rgb(168, 172, 171);
+  text-align: center;
+  padding: 24px 0;
+}
+.introTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  background: linear-gradient(to right, #8B0000 0%, #FF0000 40%, white 100%);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
+}
+.introSubtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: red;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+.main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+.sectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding:10px;
+  margin-bottom: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+.card {
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.719);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgb(238, 2, 2);
+}
+.filmImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+.note {
+  background-color:black;
+  padding: 22px;
+  border-radius: 10px;
+  text-align: center;
+}
+.noteTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.noteText {
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+.noteButton {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 24px;
+  transition: background-color 0.2s ease;
+}
+.footer {
+  background-color:black;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  
+}
+.line{
+  width: 60%;
+  height:2px;
+  margin-left: 20%;
+}
